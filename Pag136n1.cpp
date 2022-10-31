@@ -3,9 +3,9 @@ using namespace std;
 
 int main(){
   int N;
-  cout<<"Inserisci un numero";
+  cout<<"Inserisci un numero"<<endl;
   cin>>N;
   N=N*2;
-  cout<<N;
+  cout<<"Il doppio e' "<<N;
   return 0;  
 }
