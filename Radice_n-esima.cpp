@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     int N, i, prodotto=1;
     double radice;
-    cout << "Inserisci un numero:"<<endl;
+    cout << "Inserisci cinque numeri:"<<endl;
     for(i=1; i<=5; i++){
     cin>>N;
     prodotto*=N;
