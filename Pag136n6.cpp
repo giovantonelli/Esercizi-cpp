@@ -10,6 +10,6 @@ int main(){
   somma+=eta;
   }
   media= (float) somma/3;
-  cout<<"La media e' "<<media:
+  cout<<"La media e' "<<media;
   return 0;  
 }
