@@ -6,8 +6,7 @@ int main() {
     do {
         cout<<"Trasforma un numero da 1 a 7 nel giorno della settimana corrispondente: ";
         cin>>N;
-    }
-    while (N<1 || N>7);
+    } while (N<1 || N>7);
     switch(N) {
         case 1:
             cout<<"Lunedi'";
