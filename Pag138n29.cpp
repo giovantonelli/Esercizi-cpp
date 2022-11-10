@@ -10,7 +10,7 @@ int main() {
     for (int i=1; i<=N; i++) {
     cin>>nome>>categoria>>tempo;
     if (categoria=="allievi") {
-        if (tempo<min) {
+        if (tempo<=min) {
             min=tempo;
             }
         }
