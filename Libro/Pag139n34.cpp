@@ -1,12 +1,11 @@
 #include <iostream>
 using namespace std;
 
-void funzione(int b) {
-	cout<<b+1<<endl;
-	cout<<b+2<<endl;
-	cout<<b+3<<endl;
-	cout<<b+4<<endl;
-	cout<<b+5<<endl;
+void funzione(int b)  {
+	for (int i;i<5;i++) {
+		b++;
+		cout<<b<<endl;
+	}
 }
 
 int main() {
