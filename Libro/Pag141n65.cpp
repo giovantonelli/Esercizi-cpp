@@ -18,6 +18,5 @@ int main() {
 	cout<<"L'ipotenusa e': "<<i<<endl;
 	cout<<"Il perimetro e': "<<p<<endl;
 	cout<<"L'area e': "<<a<<endl;
-	system("PAUSE");
 	return 0;
 }
