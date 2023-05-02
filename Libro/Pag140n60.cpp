@@ -13,13 +13,13 @@ int main() {
     Ordine articolo;
     Ordine* pArticolo = &articolo;
     cout<<"Inserire numero ordine: ";
-    cin>>articolo.num_ordine;
+    cin>>pArticolo->num_ordine;
     cout<<"Inserire codice prodotto: ";
-    cin>>articolo.codice_prodotto;
+    cin>>pArticolo->codice_prodotto;
     cout<<"Inserire quantita': ";
-    cin>>articolo.quantita;
+    cin>>pArticolo->quantita;
     cout<<"Inserire prezzo unitario: ";
-    cin>>articolo.prezzo;
+    cin>>pArticolo->prezzo;
 
     cout<<"Codice prodotto: "<<pArticolo->codice_prodotto<<endl;
     cout<<"Prezzo totale: "<<((pArticolo->prezzo)*(pArticolo->quantita))<<endl;
