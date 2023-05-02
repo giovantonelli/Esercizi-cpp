@@ -1,17 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-void Incrementa(float &a)
-{
-	cout<<(1.03*a)<<endl;
+void Incremento(float &prezzo){
+    cout<<(prezzo*1.03)<<endl;
 }
-
-int main()
-{
-float prezzo;
-float* punt=&prezzo;
-	cin>>prezzo;
-	Incrementa(*punt);
-system("PAUSE");
-return 0;
+int main() {
+    float prezzo;
+	float* puntPrezzo=&prezzo;
+    cout<<"Inserisci prezzo: ";
+    cin>>prezzo;
+    Incremento(*puntPrezzo);
+    system("PAUSE");
+    return 0;
 }
