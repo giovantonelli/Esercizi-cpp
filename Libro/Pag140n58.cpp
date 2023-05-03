@@ -6,7 +6,7 @@ void Incremento(float &prezzo){
 }
 int main() {
     float prezzo;
-	float* puntPrezzo=&prezzo;
+	  float* puntPrezzo=&prezzo;
     cout<<"Inserisci prezzo: ";
     cin>>prezzo;
     Incremento(*puntPrezzo);
