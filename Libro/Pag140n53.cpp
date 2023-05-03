@@ -2,8 +2,7 @@
 #include <string>
 using namespace std;
 
-int main() {
-    struct Abitazione{
+struct Abitazione{
         string via;
         int CAP;
         string Comune;
@@ -16,6 +15,8 @@ int main() {
         string codfiscale;
         bool coniugato;
     };
+
+int main() {
     Persona dipendente;
     system("PAUSE");
     return 0;
