@@ -19,14 +19,18 @@ int main() {
         cin>>coeff_usura;
         cout<<"Numero di scarti: ";
         cin>>scarti;
-        if (assenze<10 && unit_prod>2000) {
-            cout<<"Premio B";
-        } else if (assenze>10 && unit_prod>2000) {
-            cout<<"Premio A";
-        } else if (coeff_usura<0.5 || scarti<20) {
-            cout<<"Premio C";
-        } else if ((assenze<10 && coeff_usura<0.5) || (unit_prod>2000 && scarti<20)) {
-            cout<<"Premio D";
+        cout<<"Risultato premi: ";
+        if (unit_prod>2000) {
+            cout<<"Premio A ";
+            if (assenze<10) {
+                cout<<"Premio B ";
+            }
+        }
+        if (coeff_usura<0.5 || scarti<20) {
+            cout<<"Premio C ";
+        }
+        if ((assenze<10 && coeff_usura<0.5) || (unit_prod>2000 && scarti<20)) {
+            cout<<"Premio D ";
         } else {
             cout<<"Nessun premio ricevuto";
         }
